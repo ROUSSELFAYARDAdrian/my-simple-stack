@@ -3,6 +3,9 @@ package deqo.arou.mysimplestack.MySimpleStack;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
+/**
+ * Un commentaire répondant a l'exigence #3
+ */
 public class SimpleStackImpl implements  SimpleStack {
     Stack<Object> wrappedStack = new Stack<Object>();
 
@@ -25,5 +28,6 @@ public class SimpleStackImpl implements  SimpleStack {
     public Item pop() throws EmptyStackException {
         return (Item) wrappedStack.pop();
     }
+
 
 }
