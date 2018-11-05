@@ -2,6 +2,10 @@ package deqo.arou.mysimplestack.MySimpleStack;
 
 import java.util.EmptyStackException;
 
+/**
+ * commentaire exigence #4
+ */
+
 public interface SimpleStack {
     /**
      * Tests is this stack is empty
