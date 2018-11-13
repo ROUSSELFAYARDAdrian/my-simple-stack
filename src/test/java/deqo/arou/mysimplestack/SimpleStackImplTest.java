@@ -1,10 +1,12 @@
-package deqo.arou.mysimplestack.MySimpleStack;
+package deqo.arou.mysimplestack;
 
+import deqo.arou.mysimplestack.Item;
+import deqo.arou.mysimplestack.SimpleStack;
+import deqo.arou.mysimplestack.SimpleStackImpl;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SimpleStackImplTest {
 
@@ -79,5 +81,10 @@ public class SimpleStackImplTest {
         Integer integer = (Integer)o.getValue();
         Assert.assertEquals(8, integer.intValue());
         Assert.assertEquals(ita.getValue(), integer);
+    }
+
+    @AfterClass
+    public static void end() {
+        System.out.println("Je suis excecuté à la fin des tests");
     }
 }

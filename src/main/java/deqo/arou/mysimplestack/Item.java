@@ -1,4 +1,4 @@
-package deqo.arou.mysimplestack.MySimpleStack;
+package deqo.arou.mysimplestack;
 
 public class Item {
     private Object value;
